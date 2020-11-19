@@ -13,9 +13,9 @@ const callback = async () => {
     const humid = await sensor.getHumidWait();
     console.log(humid);
 
-    if (humid < 60) { // 湿度に応じてOCR-05WをON/OFF
+    if (humid < 50) { // 湿度に応じてOCR-05WをON/OFF
         irLed.send(on);
-    } else {
+    } else if (humid > 65) {
         irLed.send(off);
     }
 
