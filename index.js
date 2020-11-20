@@ -10,12 +10,12 @@ const callback = async () => {
     const sensor = obniz.wired("SHT31", { vcc: 0, sda: 1, scl: 2, adr: 3, gnd: 4, addressmode: 5 });
     const irLed = obniz.wired('InfraredLED', { anode: 6, cathode: 11 });
 
-    const humid = await sensor.getHumidWait();
-    console.log(humid);
+    const { temperature, humidity } = await sensor.getAllWait();
+    console.log(new Date(), temperature, humidity);
 
-    if (humid < 50) { // 湿度に応じてOCR-05WをON/OFF
+    if (humidity < 50) { // 湿度に応じてOCR-05WをON/OFF
         irLed.send(on);
-    } else if (humid > 60) {
+    } else if (humidity > 60) {
         irLed.send(off);
     }
 
