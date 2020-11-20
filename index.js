@@ -15,7 +15,7 @@ const callback = async () => {
 
     if (humid < 50) { // 湿度に応じてOCR-05WをON/OFF
         irLed.send(on);
-    } else if (humid > 65) {
+    } else if (humid > 60) {
         irLed.send(off);
     }
 
