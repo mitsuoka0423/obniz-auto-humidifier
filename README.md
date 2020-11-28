@@ -2,7 +2,7 @@
 
 obniz + 湿度センサー + 赤外線リモコンコンセントを使って、加湿器を制御するプログラム
 
-<blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">ちょっと見えにくいけど動くようになった <a href="https://t.co/y6jnFNpDqz">pic.twitter.com/y6jnFNpDqz</a></p>&mdash; Takahiro Mitsuoka (@tmitsuoka0423) <a href="https://twitter.com/tmitsuoka0423/status/1329421026334162949?ref_src=twsrc%5Etfw">November 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[![thumbnail](https://pbs.twimg.com/ext_tw_video_thumb/1329421000950259712/pu/img/x5MQhBYy2CqfMH9X.jpg)](https://twitter.com/tmitsuoka0423/status/1329421026334162949/video/1)
 
 # 解説記事
 
