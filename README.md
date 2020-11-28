@@ -2,6 +2,8 @@
 
 obniz + 湿度センサー + 赤外線リモコンコンセントを使って、加湿器を制御するプログラム
 
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">ちょっと見えにくいけど動くようになった <a href="https://t.co/y6jnFNpDqz">pic.twitter.com/y6jnFNpDqz</a></p>&mdash; Takahiro Mitsuoka (@tmitsuoka0423) <a href="https://twitter.com/tmitsuoka0423/status/1329421026334162949?ref_src=twsrc%5Etfw">November 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 # 解説記事
 
 [最近朝起きると喉がカラカラになっているので、いい感じの湿度を保つ加湿器コントローラーを2時間で作る](https://qiita.com/tmisuoka0423/items/c8d950d9c450826845b5)
