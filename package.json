@@ -19,9 +19,8 @@
   "homepage": "https://github.com/tmitsuoka0423/obniz-auto-humidifier#readme",
   "dependencies": {
     "ambient-lib": "^0.1.5",
+    "dotenv": "^8.2.0",
     "obniz": "^3.9.0"
   },
-  "devDependencies": {
-    "cross-env": "^7.0.2"
-  }
+  "devDependencies": {}
 }

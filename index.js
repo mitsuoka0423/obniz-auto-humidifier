@@ -1,6 +1,7 @@
 const Obniz = require('obniz');
 const ambient = require('ambient-lib');
 const { on, off } = require('./signal');
+require('dotenv').config();
 
 if (process.env.AMBIENT_CHANNEL_ID && process.env.AMBIENT_WRITE_KEY) {
     ambient.connect(process.env.AMBIENT_CHANNEL_ID, process.env.AMBIENT_WRITE_KEY);

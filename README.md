@@ -2,8 +2,6 @@
 
 obniz + 湿度センサー + 赤外線リモコンコンセントを使って、加湿器を制御するプログラム
 
-
-
 [<img src="https://pbs.twimg.com/ext_tw_video_thumb/1329421000950259712/pu/img/x5MQhBYy2CqfMH9X.jpg" width="300px" />](https://twitter.com/tmitsuoka0423/status/1329421026334162949?s=20)
 
 # 解説記事
@@ -46,31 +44,19 @@ $ npm install
 
 # 実行
 
-## コマンド
-
-### 基本
-
-```bash
-$ npx cross-env OBNIZ_ID=XXXX-XXXX node index.js
-```
-### 実行間隔を調整する場合
-
-```bash
-$ npx cross-env OBNIZ_ID=XXXX-XXXX INTERVAL=10000 node index.js
-```
-
-### [Ambient](https://ambidata.io/)でデータをグラフ化する場合
-
-
-```bash
-$ npx cross-env OBNIZ_ID=xxxx-xxxx AMBIENT_CHANNEL_ID=xxxxx AMBIENT_WRITE_KEY=xxxxxxxxxxxx node index.js
-```
-
 ## パラメータ
+
+`.env.sample`を`.env`にリネームし、以下に従い更新してください。
 
 | 名前 | 必須 | 詳細 | 例 |
 | -- | -- | -- | -- |
 | OBNIZ_ID | ◯ | obnizボードに表示される`4桁`-`4桁`のID | 1234-5678 |
-| INTERVAL |  | 測定間隔[ミリ秒] | 10000 (10秒の場合) |
 | AMBIENT_CHANNEL_ID |  | AmbientチャネルID | 12345 |
 | AMBIENT_WRITE_KEY |  | Ambientライトキー | a1b2c3d4e5... |
+| INTERVAL |  | 測定間隔[ミリ秒] | 10000 (10秒の場合) |
+
+## コマンド
+
+```bash
+$ node index.js
+```
